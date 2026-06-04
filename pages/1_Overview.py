@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.title("📊 Dataset Overview")
 
-df = pd.read_parquet("data/daily_weather.parquet")
+df = pd.read_parquet("data/weather.2016.parquet")
 
 st.metric("Rows", f"{len(df):,}")
 st.metric("Columns", len(df.columns))
