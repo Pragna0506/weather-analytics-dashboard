@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.title("📈 Climate Trends")
 
-df = pd.read_parquet("data/daily_weather.parquet")
+df = pd.read_parquet("data/weather.2016.parquet")
 
 numeric_cols = df.select_dtypes(include="number").columns
 
