@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.title("🧠 Weather Insights")
 
-df = pd.read_parquet("data/daily_weather.parquet")
+df = pd.read_parquet("data/weather.2016.parquet")
 
 st.write(df.describe())
 
